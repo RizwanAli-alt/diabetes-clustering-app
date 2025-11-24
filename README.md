@@ -17,7 +17,7 @@ A professional machine learning web application for diabetes patient clustering 
 
 ## 🚀 Live Demo
 
-[View Live Demo](http://localhost:8501/) 
+[View Live Demo](https://diabetes-clustering-app.streamlit.app/) 
 
 ## 📸 Screenshots
 
@@ -51,7 +51,7 @@ A professional machine learning web application for diabetes patient clustering 
 
 ## 📋 Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Pakistani Diabetes Dataset (CSV format)
 
 ## 💻 Local Installation
@@ -81,23 +81,7 @@ A professional machine learning web application for diabetes patient clustering 
 5. **Open in browser**
    - Navigate to `http://localhost:8501`
 
-## 🌐 Deployment on Streamlit Cloud
 
-1. **Push to GitHub**
-   - Create a new repository on GitHub
-   - Push your code including `requirements_streamlit.txt`
-
-2. **Deploy on Streamlit Cloud**
-   - Go to [share.streamlit.io](https://share.streamlit.io)
-   - Sign in with GitHub
-   - Click "New app"
-   - Select your repository and branch
-   - Set main file path: `streamlit_diabetes_clustering.py`
-   - Click "Deploy"
-
-3. **Share your app**
-   - Get your public URL: `https://your-app-name.streamlit.app`
-   - Add to your LinkedIn profile
 
 ## 📊 Dataset Information
 
@@ -140,9 +124,9 @@ The clustering analysis reveals:
 ```
 diabetes-clustering-app/
 │
-├── streamlit_diabetes_clustering.py  # Main application
-├── requirements_streamlit.txt        # Dependencies
-├── README_streamlit.md              # This file
+├── streamlit_app.py  # Main application
+├── requirements.txt        # Dependencies
+├── README.md              # This file
 └── Pakistani_Diabetes_Dataset.csv   # Dataset (not included)
 ```
 
@@ -156,10 +140,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**[Your Name]**
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**[Syed Rizwan Ali Naqvi]**
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/rizwan-ali-411446353/e)
+- GitHub: [github.com/yourusername](https://github.com/RizwanAli-alt/diabetes-clustering-app)
+- Email: rizwanali64711321@google.com
 
 ## 🙏 Acknowledgments
 
@@ -184,12 +168,12 @@ I've developed an interactive web application that uses K-Means clustering to an
 
 💻 Tech Stack: Python, Streamlit, scikit-learn, Plotly
 
-🔗 Live Demo: [your-app-url]
-📊 GitHub: [your-github-url]
+🔗 Live Demo: https://diabetes-clustering-app.streamlit.app
+📊 GitHub: https://github.com/RizwanAli-alt/diabetes-clustering-app
 
 #MachineLearning #DataScience #Healthcare #Python #Streamlit #Portfolio
 ```
 
 ---
 
-*Last updated: November 2024*
+*Last updated: November 2025*
