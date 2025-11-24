@@ -74,7 +74,7 @@ This application demonstrates data preprocessing, clustering optimization, and c
 
 # Sidebar
 with st.sidebar:
-    st.markdown("### 📊 Analysis Configuration")
+    st.markdown("###  Analysis Configuration")
     
     # Upload option
     uploaded_file = st.file_uploader("Upload your dataset (CSV)", type=['csv'])
@@ -82,14 +82,14 @@ with st.sidebar:
     st.markdown("---")
     
     # Clustering parameters
-    st.markdown("### ⚙️ Clustering Parameters")
+    st.markdown("###  Clustering Parameters")
     max_clusters = st.slider("Maximum clusters for evaluation", 2, 15, 10)
     selected_k = st.slider("Number of clusters (K)", 2, 8, 3)
     
     st.markdown("---")
     
     # Feature selection
-    st.markdown("### 📈 Feature Selection for Default Dataset")
+    st.markdown("###  Feature Selection for Default Dataset")
     st.info("Using features: Age, Weight, BMI, A1c, B.S.R")
     
     st.markdown("---")
@@ -438,7 +438,7 @@ def main():
             **Test Set:** {len(X_test)} ({len(X_test)/len(df)*100:.1f}%)
             """)
         
-        st.markdown("### 📊 Cluster Characteristics")
+        st.markdown("###  Cluster Characteristics")
         
         # Generate insights for each cluster
         for i in range(selected_k):
@@ -475,7 +475,7 @@ def main():
                 - BMI indicates {'obese' if X[cluster_mask]['BMI'].mean() > 30 else 'overweight' if X[cluster_mask]['BMI'].mean() > 25 else 'normal'} weight category
                 """)
         
-        st.markdown("### 🎯 Recommendations")
+        st.markdown("###  Recommendations")
         st.markdown("""
         Based on the clustering analysis, here are the key recommendations:
         
@@ -487,7 +487,7 @@ def main():
         """)
         
         # Download results
-        st.markdown("### 💾 Export Results")
+        st.markdown("###  Export Results")
         
         results_df = pd.DataFrame({
             'Age': X['Age'],
@@ -501,7 +501,7 @@ def main():
         
         csv = results_df.to_csv(index=False)
         st.download_button(
-            label="📥 Download Clustering Results (CSV)",
+            label=" Download Clustering Results (CSV)",
             data=csv,
             file_name='kmeans_clustering_results.csv',
             mime='text/csv'
@@ -514,6 +514,6 @@ if __name__ == "__main__":
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #7f8c8d;'>
-    <p>🔗 Connect with me on <a href='https://www.linkedin.com/in/rizwan-ali-411446353' target='_blank'>LinkedIn</a></p>
+    <p> Connect with me on <a href='https://www.linkedin.com/in/rizwan-ali-411446353' target='_blank'>LinkedIn</a></p>
 </div>
 """, unsafe_allow_html=True)
