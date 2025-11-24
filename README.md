@@ -58,24 +58,24 @@ A professional machine learning web application for diabetes patient clustering 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/diabetes-clustering-app.git
+   git clone    git clone https://github.com/RizwanAli-alt/diabetes-clustering-app.git
    cd diabetes-clustering-app
    ```
 
 2. **Create virtual environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   venv\Scripts\activate  
    ```
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements_streamlit.txt
+   pip install -r requirements.txt
    ```
 
 4. **Run the app**
    ```bash
-   streamlit run streamlit_diabetes_clustering.py
+   streamlit run streamlit_app.py
    ```
 
 5. **Open in browser**
